@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SunMall - Grilled Potato Chips</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- ===== NAVBAR ===== -->
+      <nav class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">SunMall</span>
+        </div>
+
+        <!-- Nav Links -->
+        <ul class="nav-links">
+          <li class="active"><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CHIPS</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+
+        <!-- Search + Cart -->
+        <div class="nav-right">
+          <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search for chips..." />
+          </div>
+          <div class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-badge">4</span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ===== HERO SECTION ===== -->
+      <section class="hero">
+        <!-- Left Content -->
+        <div class="hero-left">
+          <!-- Badge -->
+          <div class="badge">
+            <i class="fas fa-star"></i>
+            100% REAL INGREDIENTS
+          </div>
+
+          <!-- Heading -->
+          <h1 class="hero-heading">
+            EAT OUR <span class="green-text">GRILLED</span><br />
+            POTATO CHIPS
+          </h1>
+
+          <!-- Underline accent -->
+          <div class="heading-underline"></div>
+
+          <!-- Description -->
+          <p class="hero-desc">
+            Satisfying savory Chinese meat sauce chips<br />
+            without any hard-to-find ingredients.
+          </p>
+
+          <!-- CTA + Quantity -->
+          <div class="cta-row">
+            <button class="add-to-cart">
+              <span class="cart-btn-icon"><i class="fas fa-shopping-basket"></i></span>
+              ADD TO CART
+            </button>
+            <div class="quantity">
+              <button class="qty-btn">−</button>
+              <span class="qty-num">2</span>
+              <button class="qty-btn">+</button>
+            </div>
+          </div>
+
+          <!-- Feature Icons -->
+          <div class="features">
+            <div class="feature-item">
+              <span class="feat-icon green-bg"><i class="fas fa-leaf"></i></span>
+              <div>
+                <strong>100% NATURAL</strong>
+                <p>No artificial flavors</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span class="feat-icon orange-bg"><i class="fas fa-fire"></i></span>
+              <div>
+                <strong>OVEN GRILLED</strong>
+                <p>Not fried</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span class="feat-icon red-bg"><i class="fas fa-heart"></i></span>
+              <div>
+                <strong>TASTY & CRUNCHY</strong>
+                <p>Irresistible bite</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center - Product Image -->
+        <div class="hero-center">
+          <!-- Decorative dots -->
+          <span class="dot dot-1"></span>
+          <span class="dot dot-2"></span>
+          <span class="dot dot-3"></span>
+
+          <!-- Decorative triangles -->
+          <span class="tri tri-1">▲</span>
+          <span class="tri tri-2">▼</span>
+
+          <!-- Green circle bg -->
+          <div class="circle-bg"></div>
+
+          <!-- Main chip bag image -->
+          <img
+            src="https://i.imgur.com/8Q3JQZL.png"
+            alt="Too Yumm Veggie Stix"
+            class="main-product-img"
+            onerror="this.src='https://www.tooyumm.com/images/products/veggie-stix-sour-cream-onion.png'"
+          />
+
+          <!-- Crispy & Tasty badge -->
+          <div class="crispy-badge">
+            <div class="crispy-top">CRISPY &</div>
+            <div class="crispy-bottom">TASTY</div>
+          </div>
+        </div>
+
+        <!-- Right - Flavour Info -->
+        <div class="hero-right">
+          <div class="flavour-card">
+            <div class="flavour-icon chili-bg">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/2927/2927347.png"
+                alt="chili"
+              />
+            </div>
+            <div class="flavour-info">
+              <strong>EXTRA CHILI</strong>
+              <p>Zha Jiang mian is crazy hot even when it's simplified</p>
+            </div>
+          </div>
+
+          <div class="flavour-card">
+            <div class="flavour-icon beef-bg">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+                alt="beef"
+              />
+            </div>
+            <div class="flavour-info">
+              <strong>BEEF FLAVOUR</strong>
+              <p>Comes with a lot extra energy calories and Oxizen</p>
+            </div>
+          </div>
+
+          <div class="flavour-card">
+            <div class="flavour-icon smokey-bg">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/616/616490.png"
+                alt="smokey"
+              />
+            </div>
+            <div class="flavour-info">
+              <strong>SMOKEY SAUCE</strong>
+              <p>The meat sauce is kind of reminiscent of a Chinese.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== BOTTOM FLAVOURS SECTION ===== -->
+      <section class="flavours-section">
+        <!-- Left Label -->
+        <div class="flavours-label">
+          <h2>OUR TOP<br />FLAVOURS</h2>
+          <div class="label-underline"></div>
+          <div class="nav-arrows">
+            <button class="arrow-btn"><i class="fas fa-arrow-left"></i></button>
+            <button class="arrow-btn active-arrow"><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Product Cards -->
+        <div class="product-cards">
+          <!-- Card 1 -->
+          <div class="product-card">
+            <div class="card-img-wrap">
+              <img
+                src="https://www.tooyumm.com/images/products/veggie-stix-sour-cream-onion.png"
+                alt="Black Barbecue"
+                onerror="this.src='https://via.placeholder.com/100x130/3a7d44/fff?text=Chips'"
+              />
+            </div>
+            <div class="card-info">
+              <h4>BLACK BARBECUE</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(4.8)</span>
+              </div>
+              <p class="price">$12.30</p>
+              <button class="order-btn">ORDER NOW <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="product-card">
+            <div class="card-img-wrap dark-card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Potato_chips.jpg/220px-Potato_chips.jpg"
+                alt="Mr. Potato"
+                onerror="this.src='https://via.placeholder.com/100x130/1a1a1a/fff?text=Chips'"
+              />
+            </div>
+            <div class="card-info">
+              <h4>MR. POTATO</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(4.9)</span>
+              </div>
+              <p class="price">$15.89</p>
+              <button class="order-btn">ORDER NOW <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="product-card">
+            <div class="card-img-wrap orange-card">
+              <img
+                src="https://www.tooyumm.com/images/products/veggie-stix-peri-peri.png"
+                alt="Tom Yomm"
+                onerror="this.src='https://via.placeholder.com/100x130/e07b10/fff?text=Chips'"
+              />
+            </div>
+            <div class="card-info">
+              <h4>TOM YOMM</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(4.7)</span>
+              </div>
+              <p class="price">$11.50</p>
+              <button class="order-btn">ORDER NOW <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

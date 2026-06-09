@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Hunters</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+      <div class="nav-logo">
+        <div class="logo-icon">
+          <span class="logo-bracket">[</span>
+          <span class="logo-h">H</span>
+          <span class="logo-bracket">]</span>
+        </div>
+        <div class="logo-text">
+          <span class="lt-digital">DIGITAL</span>
+          <span class="lt-hunters">HUNTERS</span>
+        </div>
+      </div>
+
+      <ul class="nav-links">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <button class="nav-cta">
+        Get In Touch <i class="fas fa-arrow-right"></i>
+      </button>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+      <!-- Grid lines background overlay -->
+      <div class="grid-overlay"></div>
+
+      <!-- Left Content -->
+      <div class="hero-left">
+        <p class="hero-eyebrow">WE CREATE</p>
+        <h1 class="hero-title">
+          <span class="ht-white">DIGITAL</span><br />
+          <span class="ht-green">HUNTERS</span>
+        </h1>
+        <p class="hero-sub">MOBILE & XR GAME<br />DEVELOPMENT STUDIO</p>
+        <p class="hero-desc">
+          We craft unique mobile<br />
+          and XR games with immersive gameplay<br />
+          and stunning visual design.
+        </p>
+        <div class="hero-btns">
+          <button class="btn-primary">
+            Discuss a Project <i class="fas fa-arrow-right"></i>
+          </button>
+          <button class="btn-ghost">
+            <span class="play-dot"><i class="fas fa-play"></i></span>
+            Watch Showreel
+          </button>
+        </div>
+      </div>
+
+      <!-- Center Character -->
+      <div class="hero-center">
+        <!-- Circular glow ring -->
+        <div class="hero-ring"></div>
+        <div class="hero-ring-2"></div>
+        <!-- Character -->
+        <img
+          src="https://i.imgur.com/9rCdvFJ.png"
+          alt="Digital Hunter Character"
+          class="hero-char"
+          onerror="this.onerror=null;this.src='https://i.imgur.com/placeholder.png'"
+        />
+        <!-- DH badge on character -->
+        <div class="dh-badge">
+          <span>D</span><span class="badge-sep">|</span><span>H</span>
+        </div>
+      </div>
+
+      <!-- Right Services -->
+      <div class="hero-right">
+        <div class="service-item">
+          <div class="svc-icon">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <div class="svc-info">
+            <strong>MOBILE</strong>
+            <span>GAMES</span>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="svc-icon">
+            <i class="fas fa-vr-cardboard"></i>
+          </div>
+          <div class="svc-info">
+            <strong>XR / VR</strong>
+            <span>PROJECTS</span>
+          </div>
+        </div>
+        <div class="service-item">
+          <div class="svc-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <div class="svc-info">
+            <strong>FULL CYCLE</strong>
+            <span>DEVELOPMENT</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Decorative shuriken shapes -->
+      <div class="shuriken shuriken-left">✦</div>
+      <div class="shuriken shuriken-right">✦</div>
+    </section>
+
+    <!-- ===== STATS BAR ===== -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <div class="stat-shuriken">✦</div>
+        <div class="stat-body">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">YEARS OF<br />EXPERIENCE</span>
+        </div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">25+</span>
+        <span class="stat-label">PROJECTS<br />DELIVERED</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">15M+</span>
+        <span class="stat-label">DOWNLOADS<br />OF OUR GAMES</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">30+</span>
+        <span class="stat-label">SPECIALISTS<br />IN THE TEAM</span>
+      </div>
+      <div class="stat-shuriken-right">✦</div>
+    </div>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="projects-section">
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow">OUR</p>
+          <h2 class="section-title">PROJECTS</h2>
+        </div>
+        <div class="proj-nav">
+          <button class="proj-nav-btn"><i class="fas fa-arrow-left"></i></button>
+          <button class="proj-nav-btn active-nav"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <div class="project-cards">
+        <!-- Card 1 - Sled Hockey -->
+        <div class="proj-card">
+          <div class="proj-img-wrap blue-card">
+            <img
+              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&q=80"
+              alt="Sled Hockey"
+              onerror="this.src='https://via.placeholder.com/320x200/0a2a6e/00e5ff?text=SLED+HOCKEY'"
+            />
+            <div class="proj-img-overlay"></div>
+            <div class="proj-card-title">
+              <span class="pct-top">SLED</span>
+              <span class="pct-bottom">HOCKEY <i class="fas fa-circle-dot"></i></span>
+            </div>
+          </div>
+          <div class="proj-card-body">
+            <span class="proj-tag">Sports</span>
+            <p class="proj-desc">
+              A fast-paced arcade hockey game<br />
+              with unique mechanics<br />
+              and multiplayer mode.
+            </p>
+            <div class="proj-footer">
+              <div class="proj-platforms">
+                <i class="fab fa-android"></i>
+                <i class="fab fa-apple"></i>
+              </div>
+              <button class="proj-arrow"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 - Project Genesis -->
+        <div class="proj-card">
+          <div class="proj-img-wrap dark-card">
+            <img
+              src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&q=80"
+              alt="Project Genesis"
+              onerror="this.src='https://via.placeholder.com/320x200/0d0d1a/7c3aed?text=PROJECT+GENESIS'"
+            />
+            <div class="proj-img-overlay"></div>
+            <div class="proj-card-title">
+              <span class="pct-small">PROJECT</span>
+              <span class="pct-large">GENESIS</span>
+            </div>
+          </div>
+          <div class="proj-card-body">
+            <span class="proj-tag">RPG / Survival</span>
+            <p class="proj-desc">
+              An XR RPG with deep storyline,<br />
+              open world and survival<br />
+              elements.
+            </p>
+            <div class="proj-footer">
+              <div class="proj-platforms">
+                <span class="platform-vr">00</span>
+                <i class="fab fa-apple"></i>
+              </div>
+              <button class="proj-arrow"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 - Mechanic Park -->
+        <div class="proj-card">
+          <div class="proj-img-wrap warm-card">
+            <img
+              src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400&q=80"
+              alt="Mechanic Park"
+              onerror="this.src='https://via.placeholder.com/320x200/1a0f00/f5a623?text=MECHANIC+PARK'"
+            />
+            <div class="proj-img-overlay"></div>
+            <div class="proj-card-title">
+              <span class="pct-small">MECHANIC</span>
+              <span class="pct-yellow">PARK</span>
+            </div>
+          </div>
+          <div class="proj-card-body">
+            <span class="proj-tag">Simulation</span>
+            <p class="proj-desc">
+              An amusement park management<br />
+              simulator with realistic<br />physics.
+            </p>
+            <div class="proj-footer">
+              <div class="proj-platforms">
+                <i class="fab fa-android"></i>
+                <i class="fab fa-apple"></i>
+              </div>
+              <button class="proj-arrow"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW WE WORK ===== -->
+    <section class="process-section">
+      <div class="process-header">
+        <h2>HOW WE <span class="green-word">WORK</span></h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-icon"><i class="fas fa-comments"></i></div>
+          <span class="step-num">01</span>
+          <strong class="step-name">DISCOVERY</strong>
+          <p class="step-desc">We learn your idea<br />and requirements</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="process-step">
+          <div class="step-icon"><i class="fas fa-bullseye"></i></div>
+          <span class="step-num">02</span>
+          <strong class="step-name">PLANNING</strong>
+          <p class="step-desc">We design the mechanics<br />and visual style</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="process-step">
+          <div class="step-icon"><i class="fas fa-code"></i></div>
+          <span class="step-num">03</span>
+          <strong class="step-name">DEVELOPMENT</strong>
+          <p class="step-desc">We build the game<br />and all content</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="process-step">
+          <div class="step-icon"><i class="fas fa-flask"></i></div>
+          <span class="step-num">04</span>
+          <strong class="step-name">TESTING</strong>
+          <p class="step-desc">We test, polish<br />and improve</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="process-step">
+          <div class="step-icon"><i class="fas fa-rocket"></i></div>
+          <span class="step-num">05</span>
+          <strong class="step-name">LAUNCH</strong>
+          <p class="step-desc">Release and ongoing<br />project support</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER CTA ===== -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <!-- Left CTA -->
+        <div class="footer-cta">
+          <h2>READY TO BUILD<br />SOMETHING <span class="green-word">LEGENDARY?</span></h2>
+          <p>Let's talk about your project!</p>
+          <button class="btn-primary footer-btn">
+            Get In Touch <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Center Logo -->
+        <div class="footer-logo">
+          <div class="footer-logo-icon">
+            <span>[</span><span class="fl-h">H</span><span>]</span>
+          </div>
+          <div class="footer-logo-text">
+            <span>DIGITAL</span>
+            <span>HUNTERS</span>
+          </div>
+          <p class="footer-tagline">We make games people<br />love to play.</p>
+          <div class="footer-socials">
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-vk"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Right Contacts -->
+        <div class="footer-contacts">
+          <h3>CONTACTS</h3>
+          <ul>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>hello@digitalhunters.studio</span>
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              <span>+1 (999) 123-45-67</span>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>New York, USA</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer bottom bar -->
+      <div class="footer-bottom">
+        <span>© 2024 Digital Hunters. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
